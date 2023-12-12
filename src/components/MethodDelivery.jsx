@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Radio from '@mui/material/Radio';
 import Icon from "../assets/iicon.png"
-import Timer from "../assets/timer.png"
+import Timer from "../assets/Timer.png"
 import Vector from "../assets/Vector.png"
 
 function MethodDelivery({ data }) {
