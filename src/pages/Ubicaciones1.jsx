@@ -5,7 +5,7 @@ import Home from "../assets/Home.png"
 import Edit from "../assets/edit.png"
 import Mastercard from "../assets/Mastercard.png"
 import Delete from "../assets/Delete.svg"
-import locationIcon from "../assets/location.svg"
+import locationIcon from "../assets/Location.svg"
 import Sidebar from '../components/Sidebar'
 import settingIcon from '../assets/settings.svg';
 function Ubicaciones1() {

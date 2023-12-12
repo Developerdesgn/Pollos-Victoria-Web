@@ -5,7 +5,7 @@ import Visa from "../assets/visa.png"
 import Mastercard from "../assets/Mastercard.png"
 import Right from "../assets/circleright.png"
 import Card from "../assets/locationSearch.svg"
-import locationIcon from "../assets/location.svg"
+import locationIcon from "../assets/Location.svg"
 import Sidebar from '../components/Sidebar'
 import settingIcon from '../assets/settings.svg';
 import { useNavigate } from 'react-router-dom'
