@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Gotham:wght@400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Gotham+Black:wght@400&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Futura+Hv+BT:wght@800&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Futura+XBlk+BT:wght@400&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Gotham+Ultra:ital,wght@1,400&display=swap"); */
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+@font-face {
+  font-family: 'arham';
+  src: url('/public/Gotham/Gotham\ Extra\ Light/Gotham Extra Light.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gotham Black';
+  src: url('/public/Gotham/Black/Gotham\ Black.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura Hv BT';
+  src: url('/public/futura/FutuHv.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura XBlk BT';
+  src: url('/public/futura2/Futura\ XBlk\ BT.ttf') format('truetype');
+}
+
+
+
+/* @font-face {
+  font-family: 'Gotham-Bold';
+  src: local('Gotham-Bold'), url('/fonts/Gotham-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+} */
+
+:root {
+  /* fonts */
+  --font-gotham: 'arham';
+  --font-gotham-black: "Gotham Black";
+  --font-gotham-ultra: "Gotham Ultra";
+  --font-futura-xblk-bt: "Futura XBlk BT";
+  --font-futura-hv-bt: "Futura Hv BT";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-3xl: 22px;
+  --font-size-11xl: 30px;
+  --font-size-26xl: 45px;
+  --font-size-29xl: 48px;
+
+  /* Colors */
+  --color-white: #fff;
+  --basic-red: #e52823;
+  --color-gray-100: rgba(0, 0, 0, 0.76);
+  --medium-grey: #646982;
+  --color-crimson: #eb252d;
+  --light-blue: #f0f5fa;
+  --dark-grey: #32343e;
+  --color-darkgray: #a5a5a5;
+  --dark-yellow: #bf8a12;
+  --basic-yellow: #ffb718;
+
+  /* Paddings */
+  --padding-lgi: 19px;
+  --padding-101xl: 120px;
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+  --br-12xs: 1px;
+  --br-lgi: 19px;
+  --br-7xs: 6px;
+}
+
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+  top: 73px !important;
+  background-color: #E52823 !important;
+  width: 350px !important;
+}
+
+.css-qi68ea {
+  position: sticky !important;
+}
+
+.banner-bg {
+  background-image: url(./assets/banner_Short.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+.banner-bg::after {
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, #FFF 90.91%);
+}
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root {
+  padding: 10px 30px !important;
+}
+
+.css-cveggr-MuiListItemIcon-root {
+  min-width: initial !important;
+}
+
+.css-10hburv-MuiTypography-root {
+  color: white !important;
+  font-weight: 700 !important;
+  margin: 0 0 0 15px !important;
+  padding: 0 !important;
+  border-bottom: 1px solid white !important;
+  line-height: 60px !important;
+}
+
+.add-product {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .add-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  } 
+  .add-product .product {
+    margin-bottom: 50px;
+    /* width: 100%; */
+  } 
+}
+
+.lg-head{
+  left: 10%;
+}
